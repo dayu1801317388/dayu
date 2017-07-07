@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   // include('./Snoopy.class.php');
   // $snoopy=new Snoopy;
  
@@ -97,5 +97,5 @@
         }
     }
 }
-echo CUtf8_PY::encode('壁挂式燃气炉两用'); //编码为拼音首字母
+echo CUtf8_PY::encode('231321321'); //编码为拼音首字母
 ?>
