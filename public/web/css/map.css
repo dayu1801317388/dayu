@@ -1,0 +1,587 @@
+@charset "utf-8";
+
+
+@font-face {
+	font-family:'iconfont';src:url("http://pages.ajkcdn.com/site/img/user/font20160927-1/iconfont.eot");src:url("http://pages.ajkcdn.com/site/img/user/font20160927-1/iconfont.eot?#iefix") format('embedded-opentype'),url("http://pages.ajkcdn.com/site/img/user/font20160927-1/iconfont.woff") format('woff'),url("http://pages.ajkcdn.com/site/img/user/font20160927-1/iconfont.ttf") format('truetype'),url("http://pages.ajkcdn.com/site/img/user/font20160927-1/iconfont.svg#iconfont") format('svg')
+}
+
+.iconfont {
+	color: #000;
+	text-align: center;
+	font-style: normal;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'iconfont'
+}
+
+
+
+.switch_warpper {
+	
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #e6e6e6;
+	border-left: none
+}
+
+.switch_with_map {
+	width: 800px;
+	height: 450px;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-left: 100px
+}
+
+.inner_switcher {
+	position: relative;
+	width: 800px;
+	height: 450px;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1
+}
+
+.switch_mask {
+	position: absolute;
+	width: 100px;
+	height: 450px;
+	background: #fff;
+	z-index: 1;
+	-webkit-transition: display .2s;
+	transition: display .2s
+}
+
+.switch_warpper .switch_btn {
+	width: 25px;
+	height: 50px;
+	position: absolute;
+	top: 200px;
+	z-index: 2;
+	font-size: 50px;
+	background-image: none
+}
+
+.switch_warpper .switch_left_btn {
+	left: 29px;
+	color: #62ab00;
+	-webkit-transition: left .1s;
+	transition: left .1s
+}
+
+.switch_warpper .switch_right_btn {
+	right: 49px;
+	color: #62ab00;
+	-webkit-transition: right .1s;
+	transition: right .1s
+}
+
+.switch_mask:hover {
+	cursor: pointer
+}
+
+.switch_mask:hover .switch_left_btn {
+	cursor: pointer;
+	left: 18px;
+	color: #508e00;
+	background-position: -32px -6px
+}
+
+.switch_mask:hover .switch_right_btn {
+	cursor: pointer;
+	right: 38px;
+	color: #508e00;
+	background-position: -93px -6px
+}
+
+.switch_right_mask {
+	right: 1px
+}
+
+.no_mask {
+	display: none
+}
+
+.scale_btn_wrap {
+	position: absolute;
+	right: 12px;
+	top: 10px;
+	width: 35px;
+	z-index: 3;
+	white-space: normal
+}
+
+a.zoom_btn,a.zoom_btn:hover {
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 30px;
+	color: #333;
+	font-weight: bold;
+	border: 1px solid #888;
+	width: 30px;
+	line-height: 26px;
+	padding-bottom: 5px;
+	text-align: center;
+	background: #fff;
+	text-decoration: none;
+	font-family: "Microsoft YaHei","微软雅黑"
+}
+
+a.zoom_btn:hover {
+	color: #666
+}
+
+.switch_wrap {
+	position: absolute;
+	left: 144px;
+	top: 0;
+	height: 450px;
+	white-space: nowrap;
+	font-size: 0
+}
+
+.switch_list {
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1
+}
+
+.img_wrap {
+	position: relative;
+	display: inline-block;
+	width: 600px;
+	height: 450px;
+	overflow: hidden;
+	vertical-align: top;
+	text-align: center;
+	*display: inline;
+	*zoom: 1
+}
+
+.img_wrap i {
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	right: 0;
+	width: 111px;
+	height: 39px;
+	background-image: url("http://pages.ajkcdn.com/site/img/personal/icon-fdsp-1x.png");
+	background-image: -webkit-image-set(url("http://pages.ajkcdn.com/site/img/personal/icon-fdsp-1x.png") 1x,url("http://pages.ajkcdn.com/site/img/personal/icon-fdsp-2x.png") 2x);
+	background-repeat: no-repeat
+}
+
+.img_wrap img {
+	max-width: 100%;
+	*width: 100%
+}
+
+.bmap_wrap {
+	display: inline-block;
+	position: relative;
+	width: 1180px;
+	height: 450px;
+	vertical-align: top;
+	overflow: hidden;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1
+}
+
+.bmap {
+	width: 1180px;
+	height: 450px
+}
+
+.map_tag_wrap {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 170px
+}
+
+.map_tag_wrap .map_tag_ico {
+	display: block;
+	position: relative;
+	left: 35px;
+	width: 126px;
+	height: 37px;
+	background: url("http://pages.ajkcdn.com/site/img/personal/map_all_v2.png") center center no-repeat
+}
+
+.map_tag_wrap .traffic_tag_hover,.map_tag_wrap .medical_tag_hover,.map_tag_wrap .school_tag_hover,.map_tag_wrap .business_tag_hover,.map_tag_ico:hover {
+	left: 0;
+	cursor: pointer
+}
+
+.map_tag_wrap .traffic_ico_normal {
+	background-position: -571px -46px
+}
+
+.map_tag_wrap .traffic_tag_hover,.traffic_ico_normal:hover {
+	background-position: -571px -2px
+}
+
+.map_tag_wrap .medical_ico_normal {
+	background-position: -709px -46px
+}
+
+.map_tag_wrap .medical_tag_hover,.medical_ico_normal:hover {
+	background-position: -709px -3px
+}
+
+.map_tag_wrap .school_ico_normal {
+	background-position: -710px -93px
+}
+
+.map_tag_wrap .school_tag_hover,.school_ico_normal:hover {
+	background-position: -575px -92px
+}
+
+.map_tag_wrap .business_ico_normal {
+	background-position: -849px -46px
+}
+
+.map_tag_wrap .business_tag_hover,.business_ico_normal:hover {
+	background-position: -849px -4px
+}
+
+.common {
+	display: inline-block;
+	white-space: nowrap;
+	position: relative;
+	background: #f60;
+	border-radius: 4px;
+	color: #fff;
+	text-align: center;
+	padding: 0 10px;
+	font-size: 14px;
+	height:30px;
+	line-height:30px;
+	z-index: 9;
+	*display: inline;
+	*zoom: 1
+}
+
+.common p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	margin-top:5px;
+	font: 14px/1.5 Arial,"Microsoft YaHei","Hiragino Sans GB","STHeiti",SimSun;
+}
+.common:hover {
+	background: #db5700
+}
+
+.common_name {
+	line-height: 30px
+}
+
+.common_arrow_ico {
+	position: absolute;
+	bottom: -7px;
+	left: 15px;
+	width: 16px;
+	height: 7px;
+	background: url("http://pages.ajkcdn.com/site/img/personal/map_all_v2.png") center center no-repeat;
+	background-position: -515px -41px
+}
+
+.common:hover .common_arrow_ico {
+	background-position: -534px -41px
+}
+
+.common_pos_ico {
+	position: absolute;
+	bottom: -24px;
+	left: 7px;
+	width: 33px;
+	height: 17px;
+	background: url("http://pages.ajkcdn.com/site/img/personal/map_all_v2.png") center center no-repeat;
+	background-position: -471px -68px
+}
+
+.switch_tab_wrap {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 0;
+	text-align: center;
+	width: 99px;
+	height: 450px;
+	background: #f1f1f1;
+	border-right: 1px solid #d8d8d8
+}
+
+.switch_warpper .map_tag,.switch_warpper .switch_tag {
+	display: inline-block;
+	width: 97px;
+	height: 110px;
+	background: #f1f1f1;
+	font-size: 14px;
+	color: #666;
+	border: 1px solid #f1f1f1;
+	border-top: 1px solid #d8d8d8;
+	border-left: 1px solid #d8d8d8
+}
+
+.switch_warpper .switch_tag_1st {
+	border-top: 1px solid #f1f1f1
+}
+
+.map_tag .num,.switch_tag .num {
+	font-size: 12px;
+	font-weight: normal
+}
+
+.switch_warpper .switch-icon {
+	color: #999;
+	font-size: 23px;
+	margin: 22px 36px 0 36px
+}
+
+.switch-room-icon {
+	background-position: 0 0
+}
+
+#room_tab:hover .switch-room-icon,.switch_tag_now .switch-room-icon {
+	background-position: -29px 0
+}
+
+.switch-hx-icon {
+	background-position: 0 -25px
+}
+
+#hx_tab:hover .switch-hx-icon,.switch_tag_now .switch-hx-icon {
+	background-position: -29px -25px
+}
+
+.switch-surd-icon {
+	background-position: 0 -51px
+}
+
+#surround_tab:hover .switch-surd-icon,.switch_tag_now .switch-surd-icon {
+	background-position: -29px -51px
+}
+
+.switch-map-icon {
+	margin-top: 35px;
+	background-position: 0 -77px
+}
+
+#map_tab:hover .switch-map-icon,.switch_tag_now .switch-map-icon {
+	background-position: -29px -77px
+}
+
+.switch_warpper .map_tag {
+	height: 112px
+}
+
+.switch_warpper .switch_tag:hover,.switch_warpper .map_tag:hover {
+	background: #f9f9f9;
+	position: relative;
+	z-index: 20;
+	border: 1px solid #62ab00;
+	color: #62ab00;
+	font-weight: bold;
+	text-decoration: none;
+	width: 98px
+}
+
+.switch_warpper .switch_tag:hover i,.switch_warpper .map_tag:hover i {
+	color: #62ab00
+}
+
+.map_tag_XL {
+	height: 224px
+}
+
+.switch_warpper .switch_tag_now {
+	color: #62ab00;
+	font-weight: bold;
+	background: #fff;
+	border-right: 2px solid #fff;
+	position: relative;
+	z-index: 20
+}
+
+.switch_warpper .switch_tag_now i {
+	color: #62ab00
+}
+
+.switch_warpper .switch_tag_now:hover {
+	background: #fff;
+	color: #62ab00;
+	width: 98px
+}
+
+.switch_warpper .switch_tag_now:hover i {
+	color: #62ab00
+}
+
+.switch_warpper .map_tag_ico {
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold
+}
+
+.switch_warpper .map_tag_ico .iconfont {
+	font-size: 15px;
+	margin: 0 7px 0 30px;
+	font-weight: normal
+}
+
+.switch_warpper .traffic_ico_normal,.switch_warpper .traffic_ico_normal .iconfont {
+	color: #2693ff
+}
+
+.switch_warpper .medical_ico_normal,.switch_warpper .medical_ico_normal .iconfont {
+	color: #ff4646
+}
+
+.switch_warpper .school_ico_normal,.switch_warpper .school_ico_normal .iconfont {
+	color: #c60
+}
+
+.switch_warpper .business_ico_normal,.switch_warpper .business_ico_normal .iconfont {
+	color: #029497
+}
+
+.switch_warpper .map_tag_ico:hover,.switch_warpper .map_tag_ico:hover .iconfont,.switch_warpper .traffic_tag_hover,.switch_warpper .traffic_tag_hover .iconfont,.switch_warpper .medical_tag_hover,.switch_warpper .medical_tag_hover .iconfont,.switch_warpper .school_tag_hover,.switch_warpper .school_tag_hover .iconfont,.switch_warpper .business_tag_hover,.switch_warpper .business_tag_hover .iconfont {
+	color: #fff;
+	text-decoration: none
+}
+
+.ico {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("http://pages.ajkcdn.com/site/img/personal/entrustView4.png") center center no-repeat
+}
+
+.layout_wrap {
+	position: absolute;
+	width: 39px;
+	height: 37px;
+	background: url("http://pages.ajkcdn.com/site/img/personal/map_all.png") center center no-repeat
+}
+
+.layout_detail {
+	display: none;
+	position: absolute;
+	top: -67px;
+	left: -27px;
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 8px 10px;
+	width: 20em;
+	z-index: 10
+}
+
+.layout_title {
+	width: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.layout_detail_down {
+	position: absolute;
+	bottom: -12px;
+	left: 30px;
+	width: 21px;
+	height: 12px;
+	background: url("http://pages.ajkcdn.com/site/img/personal/entrustView4.png") center center no-repeat;
+	background-position: -200px -22px
+}
+
+.layout_wrap:hover .layout_detail {
+	display: block
+}
+
+.layout_title {
+	width: 20em;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.ftr_subway {
+	background-position: -233px -1px
+}
+
+.ftr_subway:hover {
+	background-position: -233px -55px
+}
+
+.ftr_bus {
+	background-position: -116px -1px
+}
+
+.ftr_bus:hover {
+	background-position: -116px -55px
+}
+
+.ftr_hospital {
+	background-position: -58px -1px
+}
+
+.ftr_hospital:hover {
+	background-position: -58px -55px
+}
+
+.ftr_school {
+	background-position: 0 -1px
+}
+
+.ftr_school:hover {
+	background-position: 0 -55px
+}
+
+.ftr_restaurant {
+	background-position: -291px -1px
+}
+
+.ftr_restaurant:hover {
+	background-position: -291px -55px
+}
+
+.ftr_supermarkert {
+	background-position: -174px -1px
+}
+
+.ftr_supermarkert:hover {
+	background-position: -174px -55px
+}
+
+.ftr_mall {
+	background-position: -174px -1px
+}
+
+.ftr_mall:hover {
+	background-position: -174px -55px
+}
+
+.ftr_bank {
+	background-position: -349px -1px
+}
+
+.ftr_bank:hover {
+	background-position: -349px -55px
+}
+
+.ftr_ATM {
+	background-position: -349px -1px
+}
+
+.ftr_ATM:hover {
+	background-position: -349px -55px
+}
+
+

@@ -1,0 +1,9 @@
+body{margin:0 auto;font-size:14px;color:#000;font-family:Microsoft YaHei;background:#dddddd;}
+      .login_form{position:relative;width:350px;height:360px;background:#fff;margin:100px auto;}
+	  .login_js{text-align:center;padding-top:30px;font-weight:bold;font-size:20px;color:#888}
+	  .login_re{padding-left:30px;}
+	  .login_re form{position:relative;padding-right:40px;}
+	  .login_re input{padding-left:5px;margin-top:20px;height:26px;border:1px solid #888;cursor:pointer;line-height:26px;}
+	   label{font-weight:bold;font-size:14px;color:#888;cursor:pointer;height:26px;line-height:26px;}
+	  .sub{height:40px;position:absolute;left:0px;top:210px;cursor:pointer;color:#888;font-weight:bold;}
+	   

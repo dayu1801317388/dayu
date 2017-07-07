@@ -1,0 +1,16 @@
+body{margin:0 auto;font-size:14px;color:#000;font-family:Microsoft YaHei;background:#dddddd;}
+      .login_form{position:relative;width:350px;height:370px;background:#fff;margin:100px auto;}
+	  .login_js{text-align:center;padding-top:30px;font-weight:bold;font-size:20px;color:#888}
+	  .login_re{padding-left:30px;}
+	  .login_re form{position:relative;padding-right:40px;}
+	  .login_re input{padding-left:5px;margin-top:20px;height:26px;border:1px solid #888;cursor:pointer;line-height:26px;}
+	   label{font-weight:bold;font-size:14px;color:#888;cursor:pointer;height:26px;line-height:26px;}
+      .psdd{margin-left:2px;}
+	  .p_code{width:50px;}
+	  .code_a{position:absolute;left:130px;top:120px;cursor:pointer}
+	  #sbut{position:absolute;top:190px;}
+	  #sbut .sub{width:100px;cursor:pointer;color:#888;font-weight:bold;}
+	  .login_reg{float:left;width:80px;height:20px;}
+	  .login_red{position:absolute;top:240px;height:20px;}
+	  .login_ret{float:right;}
+	  .reg{margin-top:20px;font-weight:bold;color:#888;cursor:pointer;}
