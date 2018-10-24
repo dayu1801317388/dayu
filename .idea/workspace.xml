@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709990d9-af08-47f2-bf54-d6412bfeff39" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/images/test2.php" afterPath="$PROJECT_DIR$/public/images/test2.php" />
+      <change beforePath="$PROJECT_DIR$/public/images/test.php" afterPath="$PROJECT_DIR$/public/images/test.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,21 +26,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/images/test.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test2.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/images/test2.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -54,8 +54,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/images/test.php" />
         <option value="$PROJECT_DIR$/public/images/test2.php" />
+        <option value="$PROJECT_DIR$/public/images/test.php" />
       </list>
     </option>
   </component>
@@ -154,12 +154,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540369594010</updated>
-      <workItem from="1540369595470" duration="1005000" />
+      <workItem from="1540369595470" duration="1050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1005000" />
+    <option name="totallyTimeSpent" value="1050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -205,18 +205,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/test.php">
+    <entry file="file://$PROJECT_DIR$/public/images/test2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="154">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/test2.php">
+    <entry file="file://$PROJECT_DIR$/public/images/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="66">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
